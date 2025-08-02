@@ -1,0 +1,39 @@
+{
+  "name": "vite-env-autocomplete",
+  "version": "1.0.3",
+  "description": "No need to define any env interface on `d.ts` file this pluggin will autocomplete it",
+  "main": "dist/vite-env-autocomplete.js",
+  "types": "dist/vite-env-autocomplete.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc && cp package.json README.md dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angryman18/vite-env-autocomplete.git"
+  },
+  "keywords": [
+    "vite",
+    "pluggin",
+    "env",
+    "autocomplete",
+    "intellisense",
+    "environment variables"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angryman18/vite-env-autocomplete/issues"
+  },
+  "homepage": "https://github.com/Angryman18/vite-env-autocomplete#readme",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  }
+}
